@@ -1,0 +1,18 @@
+[
+  {
+    "case_name": "登陆成功",
+    "request_body": {
+      "mobile": "13800000002",
+      "password": "123456"
+    },
+    "assert_msg":{"message": "操作成功"}
+  },{
+    "case_name": "登陆失败",
+    "request_body": {
+      "mobile": "13800000002",
+      "password": "1234561"
+    },
+   "assert_msg":{"message": "用户名或密码错误"}
+
+  }
+]
